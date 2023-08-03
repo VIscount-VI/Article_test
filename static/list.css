@@ -15,7 +15,7 @@ img {
     transform: translateX(10px);
 }
 .content {
-    max-width: 60%;
+    max-width: 80%;
     height: 80%;
     margin: auto;
     border: solid 1px rgba(0, 0, 0, 0.123);
@@ -26,7 +26,7 @@ h1 {
     font-size: 10px;
 }
 .box {
-    max-width: 60%;
+    max-width: 80%;
     height: 50vh;
     margin: auto;
 }
@@ -42,6 +42,8 @@ h1 {
 
 }
 .body {
+    width: 700px;
+    height: 40%;
     transform: translateX(8%);
     margin-top: 2%;
     font-family: monospace;
@@ -49,15 +51,16 @@ h1 {
     font-style: normal;
 }
 .author {
-    position: absolute;
-    transform: translateY(180px);
+    float: right;
+    transform: translateY(70px);
     font-size: 12px;
     font-family:monospace;
+    color: rgb(26, 187, 66);
 
 }
 .data {
-    position: absolute;
-    transform: translateY(166px);
+    transform: translateY(-10px);
+    margin-top: 10%;
     font-size: 12px;
     font-family:monospace;
 
